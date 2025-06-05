@@ -53,7 +53,7 @@ pip install torch torch-geometric networkx matplotlib scikit-learn
 > **Note:** You may also need pyg-lib and torch-scatter based on your platform for GNNs.
 
 ---
-🏁 How to Run
+##🏁 How to Run
 🔹 1. Load City Graph
 ```python
 import networkx as nx
@@ -72,7 +72,7 @@ visualize_prediction(pred)
 ```
 ---
 
-📊 Metrics
+##📊 Metrics
 - Graph Edit Distance (GED)
 
 - Node Addition Accuracy
@@ -84,7 +84,7 @@ visualize_prediction(pred)
 - Spatial Distribution Consistency
 
 ---
-🌆 Visual Output
+##🌆 Visual Output
 Before: Existing road layout
 
 After: Suggested expansions, inserted intersections, predicted changes
@@ -93,7 +93,7 @@ Use the built-in `visualize_prediction()` function or `matplotlib + networkx` to
 
 ---
 
-📚 Future Work
+##📚 Future Work
 - Add support for multi-city training datasets
 
 - Introduce reinforcement learning for feedback-based layout generation
@@ -104,15 +104,15 @@ Use the built-in `visualize_prediction()` function or `matplotlib + networkx` to
 
 ---
 
-👨‍💻 Authors
-Developed by Lovy Verma
+##👨‍💻 Authors
+**Developed by Lovy Verma**
 ---
 
-📝 License
-MIT License
+##📝 License
+**MIT License**
 ---
 
-🙏 Acknowledgements
+##🙏 Acknowledgements
 Torch Geometric (PyG)
 
 OpenStreetMap & city data sources
